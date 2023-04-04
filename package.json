@@ -1,0 +1,34 @@
+{
+  "name": "numeracion-crm",
+  "version": "0.1.0",
+  "homepage": "http://contratos-ps.s3-website-us-east-1.amazonaws.com/next/",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build && postcss styles/globals.css -o public/build/globals.css",
+    "start": "next start",
+    "lint": "next lint",
+    "expo": "next export"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@heroicons/react": "^2.0.16",
+    "apollo-link-context": "^1.0.20",
+    "date-fns": "^2.29.3",
+    "formik": "^2.2.9",
+    "graphql": "^16.6.0",
+    "next": "^13.2.4",
+    "node-fetch": "^3.3.1",
+    "notiflix": "^3.2.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uninstall": "^0.0.0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
